@@ -6,15 +6,15 @@ endswith()
 
 Verifica si una cadena finaliza con un subcadena específico.
 
-    texto = "Aprendiendo Python"
-    print(texto.endswith("Python"))  # True
-    print(texto.endswith("Java"))    # False
+    texto = "Hola Mundo"
+    print(texto.endswith("Mundo"))  # True
+    print(texto.endswith("Hola"))    # False
 
 startswith()
 
 Comprueba si una cadena inicia con un subcadena dado.
 
-    texto = "Bienvenido al curso"
+    texto = "Hola Mundo"
     print(texto.startswith("Bien"))  # True
     print(texto.startswith("Hola"))  # False
     
